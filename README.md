@@ -1,3 +1,11 @@
+# Clarify Loopback Connector
+
+Duplicate of StrongLoop's Loopback Connector with modifications to SQL generation.
+In order to get updates from Strongloop's repo:
+
+    git remote add strongloop https://github.com/strongloop/loopback-connector.git
+    git rebase strongloop/master
+
 # LoopBack Connector
 
 LoopBack Connector is a set of building blocks simplifying implementation
